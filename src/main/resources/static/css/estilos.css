@@ -229,7 +229,7 @@ label {
     color: var(--azul-medio);
 }
 
-input[type="submit"], #novo {
+input[type="submit"], .linkButton {
     background-color: var(--azul-escuro);
     color: white;
     border: none;
@@ -238,6 +238,7 @@ input[type="submit"], #novo {
     font-size: 14px;
     text-transform: uppercase;
     cursor: pointer;
+    text-decoration: none;
 }
 
 #buttons {
