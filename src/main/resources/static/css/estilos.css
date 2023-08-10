@@ -192,7 +192,7 @@ td > form {
 /* FORM */
 
 div > form {
-    margin: 3em 0;
+    margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -210,7 +210,8 @@ h1 {
     font-weight: bold;
     font-size: 24px;
     text-transform: uppercase;
-    margin: 20px 0;
+    margin-top: 50px;
+    margin-bottom: 0px;
 }
 
 form div input {
@@ -228,7 +229,7 @@ label {
     color: var(--azul-medio);
 }
 
-input[type="submit"] {
+input[type="submit"], #novo {
     background-color: var(--azul-escuro);
     color: white;
     border: none;
@@ -237,4 +238,8 @@ input[type="submit"] {
     font-size: 14px;
     text-transform: uppercase;
     cursor: pointer;
+}
+
+#buttons {
+    display: inline;
 }
