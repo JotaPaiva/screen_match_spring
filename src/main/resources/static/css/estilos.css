@@ -239,8 +239,20 @@ input[type="submit"], .linkButton {
     text-transform: uppercase;
     cursor: pointer;
     text-decoration: none;
+    width: auto;
+    margin: 15px 2%;
 }
 
-#buttons {
-    display: inline;
+input[type="submit"]:hover, .linkButton:hover, #returnButton:hover {
+    background-color: #899fcb;
+}
+
+.rowButtons {
+    margin-top: 5px;
+    display:flex;
+    justify-content: center;
+}
+
+#returnButton {
+    background-color: var(--azul-medio);
 }
